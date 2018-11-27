@@ -1,5 +1,5 @@
 '''
-Write a program to construct aBayesian network considering medical data. Use this
+Write a program to construct a Bayesian network considering medical data. Use this
 model to demonstrate the diagnosis of heart patients using standard Heart Disease
 Data Set.
 
@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 from urllib.request import urlopen
 
-url = 'http://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.hungarian.data'
+url = 'https://tinyurl.com/BayesianNetwork'
 names = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope', 'ca', 'thal', 'heartdisease']
 
 data = pd.read_csv(urlopen(url), names=names)
